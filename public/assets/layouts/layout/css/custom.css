@@ -1,0 +1,28 @@
+/* here you can put your own css to customize and override the theme */
+body,
+.page-sidebar .page-sidebar-menu{
+	background-color : #931d22;
+}
+.portlet.box.green > .portlet-title,
+.page-header.navbar{
+	background-color : #b82228;
+}
+.page-header.navbar{
+	
+	border-bottom : 1px solid white;
+}
+.page-header.navbar .menu-toggler > span::before, 
+.page-header.navbar .menu-toggler > span::after,
+.page-header.navbar .menu-toggler > span{
+	background : white;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username,
+.page-sidebar .page-sidebar-menu > li > a,
+.page-sidebar .page-sidebar-menu > li > a > i[class*="icon-"], .page-sidebar .page-sidebar-menu > li > a > i[class^="icon-"],
+.page-footer .page-footer-inner{
+	color : white;
+}
+
+.page-sidebar .page-sidebar-menu > li > a{
+	border-top: 1px solid white;
+}
